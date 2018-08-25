@@ -15,6 +15,9 @@ class XModel extends Model {
      * Simple
      * [
      *     'where_param_1' => 'where_value_1',     #and
+     *     'condition' => [                        #where fillable
+     *
+     *     ],
      *     'whereIn' => [                          #and
      *         [
      *             'column' => 'whereIn_column_1',
